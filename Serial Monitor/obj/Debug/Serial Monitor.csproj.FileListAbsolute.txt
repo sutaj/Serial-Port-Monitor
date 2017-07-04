@@ -1,0 +1,9 @@
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\bin\Debug\Serial Monitor.exe.config
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\bin\Debug\Serial Monitor.exe
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\bin\Debug\Serial Monitor.pdb
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\obj\Debug\Serial Monitor.csprojResolveAssemblyReference.cache
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\obj\Debug\Serial_Monitor.frmMONITOR.resources
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\obj\Debug\Serial_Monitor.Properties.Resources.resources
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\obj\Debug\Serial Monitor.csproj.GenerateResource.Cache
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\obj\Debug\Serial Monitor.exe
+C:\Users\Akil\documents\visual studio 2017\Projects\Serial Monitor\Serial Monitor\obj\Debug\Serial Monitor.pdb

@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMONITOR));
             this._cSTRIP = new System.Windows.Forms.StatusStrip();
+            this._cW = new System.Windows.Forms.ToolStripStatusLabel();
             this._cCMD = new System.Windows.Forms.TextBox();
             this._cEventView = new System.Windows.Forms.ListView();
             this._headICON = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this._headCOMMAND = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this._cSEND = new System.Windows.Forms.Button();
             this._ctoppanel = new System.Windows.Forms.Panel();
-            this._cW = new System.Windows.Forms.ToolStripStatusLabel();
             this._cSTRIP.SuspendLayout();
             this._ctoppanel.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +50,12 @@
             this._cSTRIP.Size = new System.Drawing.Size(821, 22);
             this._cSTRIP.TabIndex = 0;
             this._cSTRIP.Text = "statusStrip1";
+            // 
+            // _cW
+            // 
+            this._cW.Name = "_cW";
+            this._cW.Size = new System.Drawing.Size(21, 17);
+            this._cW.Text = " ⏺ ";
             // 
             // _cCMD
             // 
@@ -107,12 +114,6 @@
             this._ctoppanel.Size = new System.Drawing.Size(821, 33);
             this._ctoppanel.TabIndex = 4;
             // 
-            // _cW
-            // 
-            this._cW.Name = "_cW";
-            this._cW.Size = new System.Drawing.Size(21, 17);
-            this._cW.Text = " ⏺ ";
-            // 
             // frmMONITOR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +122,7 @@
             this.Controls.Add(this._cEventView);
             this.Controls.Add(this._cSTRIP);
             this.Controls.Add(this._ctoppanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMONITOR";
             this.Text = "Serial Port Monitor";
             this.Load += new System.EventHandler(this.frmMONITOR_Load);
